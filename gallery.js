@@ -27,7 +27,10 @@ const render = () => {
       video.controls = true;
       video.playsInline = true;
       video.preload = 'metadata';
-      video.src = item.url;
+      const source = document.createElement('source');
+      source.src = item.url;
+      source.type = 'video/mp4';
+      video.append(source);
       media.append(video);
     } else {
       const image = document.createElement('img');
