@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "type": "video",
+      "created_at": "2026-09-02T23:16:07Z",
+      "size": 6290730,
+      "url": "https://github.com/MauricioRojasCareers/t3-screenshots/releases/download/recordings-2026-09/e7fca69ebbc1def92f972b645542b982add172399a6bcee1c5b6f51123c62913.mp4"
+    },
+    {
+      "type": "image",
+      "created_at": "2026-09-02T18:02:52-05:00",
+      "size": 137584,
+      "url": "https://raw.githubusercontent.com/MauricioRojasCareers/t3-screenshots/main/images/2026/09/e72b50cf913ffe747bf8338fb38eecf9a49412fbbd5a7692baa247d219a1b248.webp"
+    },
+    {
+      "type": "image",
+      "created_at": "2026-09-02T17:52:56-05:00",
+      "size": 76112,
+      "url": "https://raw.githubusercontent.com/MauricioRojasCareers/t3-screenshots/main/images/2026/09/4202edf7ea2c0f895d8433bef9caaf5298e74e8c740f7afd69dce2c81f9dc0d7.webp"
+    }
+  ]
+}
