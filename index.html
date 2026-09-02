@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111318">
+  <title>T3 Media</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <p class="eyebrow">MAURICIO · T3 CODE</p>
+      <h1>Screen captures</h1>
+      <p class="subtitle">Recordings and screenshots, ready to view anywhere.</p>
+    </div>
+    <a class="repo" href="https://github.com/MauricioRojasCareers/t3-screenshots">GitHub ↗</a>
+  </header>
+
+  <nav aria-label="Media filters">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="video">Recordings</button>
+    <button class="filter" data-filter="image">Screenshots</button>
+    <span id="count"></span>
+  </nav>
+
+  <main id="gallery" aria-live="polite">
+    <p class="loading">Loading captures…</p>
+  </main>
+
+  <dialog id="lightbox">
+    <button class="close" aria-label="Close">×</button>
+    <img alt="Full-size screenshot">
+  </dialog>
+
+  <template id="card-template">
+    <article class="card">
+      <div class="media"></div>
+      <div class="details">
+        <div><span class="kind"></span><time></time></div>
+        <a class="download">Original ↗</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="gallery.js" defer></script>
+</body>
+</html>
